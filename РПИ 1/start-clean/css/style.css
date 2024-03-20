@@ -1,0 +1,154 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+color: #151618;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+}   
+
+.logo{
+    margin-bottom: 35;
+}
+
+.menu__list{
+    transform: translateX(-100%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(228, 21, 21);
+    gap: 0 50px;
+}
+.menu__list.menu__list--open{
+    transform: translate(-0%);
+
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.containerone{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 170px;
+    padding-right: 140px;
+}
+
+.top__innerone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 0 130px;
+}
+
+.topone{
+    background-repeat: no-repeat;
+    background-position: buttom center;
+    background-size: cover;
+}
+
+.containertow{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 170px;
+    padding-right: 140px;
+
+}
+
+.top__innertow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 0 130px;
+}
+
+.toptow{
+    background-repeat: no-repeat;
+    background-position: buttom center;
+    background-size: cover;
+}
+
+.top__textmap{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #ff0000;
+    font-family: 'Cormarant', serif;
+}
+
+.top__textpaln{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #ff0000;
+    font-family: 'Cormarant', serif;
+    max-width: 410px;
+}
+
+.top__textnav{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #ff0000;
+    font-family: 'Cormarant', serif;
+    max-width: 410px;
+}
+
+.top__texthome{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #ff0000;
+    font-family: 'Cormarant', serif;
+    max-width: 410px;
+}
